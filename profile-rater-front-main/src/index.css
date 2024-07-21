@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+   
+
+  @font-face {
+    font-family: 'outfit';
+    src: url('../public/assets/fonts/Outfit-Regular.woff2');
+}
+@font-face {
+    font-family: 'outfit-medium';
+    src: url('../public/assets/fonts/Outfit-Medium.woff2');
+}
+@font-face {
+    font-family: 'outfit-semibold';
+    src: url('../public/assets/fonts/Outfit-SemiBold.woff2');
+}
+@font-face {
+    font-family: 'outfit-bold';
+    src: url('../public/assets/fonts/Outfit-Bold.woff2');
+}
+@font-face {
+    font-family: 'outfit-extrabold';
+    src: url('../public/assets/fonts/Outfit-ExtraBold.woff2');
+}
+@font-face {
+    font-family: 'outfit-black';
+    src: url('../public/assets/fonts/Outfit-Black.woff2');
+}
+  @font-face {
+      font-family: 'savoye';
+      src: url('../public/assets/fonts/Savoye-LET-Plain.woff2');
+  }
+}
